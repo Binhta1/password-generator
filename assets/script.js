@@ -1,4 +1,11 @@
 // Assignment code here
+//variables use
+
+var lower = 'abcdefghijklmnopqrstuvwxyz';
+var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var special = '!@#$^&%*()+=-[]{}|:<>?,.';
+var number = '1234567890';
+
 
 
 // Get references to the #generate element
