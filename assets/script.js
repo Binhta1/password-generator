@@ -94,12 +94,16 @@ const number = "1234567890";
       var characters = (special)[Math.floor(Math.random() * (special.length ))]
       return characters
       }
-  }else {
-    generatePassword()
+  }if (randomCharacter === undefined) {
+    var randomPassword = "must have one character type!"
   }
-  
-  return randomCharacter()
- 
+  else {
+    var randomPassword = ""
+    for (var i = 0; i < passwordLength; i ++){
+      randomPassword += randomCharacter();
+    }
+  }   
+  return randomPassword
 }
 
 
